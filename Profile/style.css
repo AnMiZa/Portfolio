@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    min-width: 500px;
+    /* background-color: rgb(103, 161, 248); */
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.profilePhoto {
+    width: 100%;
+}
+
+.headWrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.headWrap h1 {
+    text-align: left;
+    line-height: 150%;
+    font-size: 2rem;
+}
+
+.headWrap h2 {
+    text-align: right;
+    line-height: 150%;
+    font-size: 1.3rem;
+}
+
+.titles {
+    color: #fff;
+    margin: 2% 0;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.quote {
+    margin-top: 5%;
+}
+
+.quote q {
+    font-size: 1.6rem;
+    display: block;
+    text-align: center;
+
+
+}
+
+.quote cite {
+    font-size: 1.3rem;
+    display: block;
+    text-align: center;
+    line-height: 200%;
+    text-indent: 200px;
+}
+
+main {
+    /* margin: 0 5%; */
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 20px;
+}
+
+.aboutMe h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.aboutMe p {
+    margin: 3% 5%;
+}
+
+.myProjects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    /* width: 80%; */
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.myProjects div {
+    margin: 5%;
+    height: 200px;
+    width: 200px;
+    background-color: #666;
+}
+
+.myProjectsTitle {
+    margin-bottom: 20px;
+}
+
+
+h3.contact {
+    text-align: center;
+}
+
+form {
+    margin: 20px auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form label {
+    font-size: 1.2rem;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0 10px;
+    border-radius: 5px;
+    background-color: #333333;
+}
+
+form input:focus,
+form textarea:focus {
+    color: #fff;
+}
+
+form textarea {
+    height: 300px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+    line-height: 200%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+
+.socials a {
+    padding: 0 50px;
+    font-size: 1rem;
+    color: #333333;
+    flex: 1 0 50px;
+    line-height: 50px;
+    text-decoration: none;
+    transition: .3s;
+
+}
+
+.socials i {
+    font-size: 1.1rem;
+    padding-right: 50px;
+}
+
+.socials a:hover {
+    background-color: #333;
+    color: white;
+}
+
+@media (min-width:960px) {
+
+
+
+    body {
+        max-width: 1280px;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+
+    .profilePhoto {
+        order: 1;
+        height: auto;
+        width: auto;
+    }
+
+    .headWrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+
+    .headWrap h1 {
+        text-align: left;
+        line-height: 150%;
+        font-size: 2rem;
+    }
+
+    .headWrap h2 {
+        text-align: left;
+        line-height: 150%;
+        font-size: 1.3rem;
+    }
+
+    .titles {
+        max-width: 80%;
+        flex-basis: 70%;
+        color: #fff;
+        margin: 0;
+        /* padding: 10% 5% 0; */
+        background-color: rgba(0, 0, 0, 0.281);
+    }
+
+    .myProjects {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        /* width: 80%; */
+        background-color: rgba(0, 0, 0, 0.281);
+    }
+
+    .myProjects div {
+        margin: 5%;
+        height: 200px;
+        width: 200px;
+        background-color: #666;
+    }
+
+    .socials a:hover {
+        background-color: #333;
+        color: white;
+    }
+
+
+}
