@@ -146,6 +146,36 @@ form textarea {
     height: 300px;
 }
 
+form button {
+    text-indent: 45px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    background-color: #fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-right: 200px;
+    transition: .3s;
+}
+
+form button:hover {
+    padding-right: 30px;
+    color: #fff;
+    background-color: #333;
+}
+
+button i {
+    text-indent: 20px;
+    visibility: hidden;
+}
+
+form button:hover i {
+    visibility: visible;
+}
+
+
+
 footer {
     margin-top: 20px;
 }
@@ -179,6 +209,7 @@ footer p {
 }
 
 .socials a:hover {
+    text-indent: 20px;
     background-color: #333;
     color: white;
 }
