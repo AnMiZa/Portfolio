@@ -37,7 +37,17 @@ body {
 .titles {
     color: #fff;
     margin: 2% 0;
-    padding: 2%;
+    /* background-image: url(img/islandia.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: -130%; */
+
+}
+
+.opacity {
+    padding: 5%;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.281);
 }
 
@@ -199,13 +209,13 @@ footer p {
     .headWrap h1 {
         text-align: left;
         line-height: 150%;
-        font-size: 2rem;
+        font-size: 4.5vw;
     }
 
     .headWrap h2 {
         text-align: left;
         line-height: 150%;
-        font-size: 1.3rem;
+        font-size: 2vw;
     }
 
     .titles {
@@ -215,6 +225,10 @@ footer p {
         margin: 0;
         /* padding: 10% 5% 0; */
         background-color: rgba(0, 0, 0, 0.281);
+        background-image: url(img/islandia.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position-y: -130%;
     }
 
     .myProjects {
