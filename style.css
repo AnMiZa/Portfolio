@@ -37,10 +37,10 @@ body {
 .titles {
     color: #fff;
     margin: 2% 0;
-    /* background-image: url(img/islandia.jpg);
-    background-attachment: fixed;
+    background-image: url(img/islandia.jpg);
+    background-attachment: scroll;
     background-repeat: no-repeat;
-    background-position-y: -130%; */
+    background-position-y: 57%;
 
 }
 
@@ -87,6 +87,7 @@ h3 {
 }
 
 .aboutMe p {
+    font-size: 1.4rem;
     margin: 3% 5%;
 }
 
