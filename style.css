@@ -7,7 +7,6 @@
 body {
     color: #333;
     min-width: 500px;
-    /* background-color: rgb(103, 161, 248); */
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
 }
@@ -37,10 +36,10 @@ body {
 .titles {
     color: #fff;
     margin: 2% 0;
-    /* background-image: url(img/islandia.jpg);
-    background-attachment: fixed;
+    background-image: url(img/islandia.jpg);
+    background-attachment: scroll;
     background-repeat: no-repeat;
-    background-position-y: -130%; */
+    background-position-y: 55%;
 
 }
 
@@ -87,6 +86,7 @@ h3 {
 }
 
 .aboutMe p {
+    font-size: 1.4rem;
     margin: 3% 5%;
 }
 
@@ -122,6 +122,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
 }
 
 form label {
@@ -134,7 +135,7 @@ form textarea {
     width: 80%;
     margin: 10px 0 10px;
     border-radius: 5px;
-    background-color: #333333;
+    background-color: #aaa;
 }
 
 form input:focus,
