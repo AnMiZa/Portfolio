@@ -1,3 +1,3 @@
 # Portfolio page
 
-This is my portfolio page. Descriptions still to be filled in **WORK IN PROGRESS**
+This is my portfolio page. Descriptions still to be filled in. **WORK IN PROGRESS**
